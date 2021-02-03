@@ -15,4 +15,9 @@
     left: 150px;
     padding: 30px;
     background-color: #ffe2e2;
+
+}
+.lefts{
+    position: relative;
+    left: 400px;
 }
