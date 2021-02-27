@@ -14,11 +14,36 @@
     background-color: rgb(211, 235, 243);
     margin:auto;
 }
+.row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+    align-content: center;
+    align-items: center;
+}
+.column{
+    display:flex;
+    flex-direction:column;
+    flex-basis:100%;
+    flex:1;
+    padding:50px;
+    align-content: center;
+}
+.onewrapper{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: lightcyan;
+}
 .center{
     text-align: center;
 }
 .size{
     width:300px;
+}
+.imgheight{
+    height:200px;
 }
 .upper{
     text-transform: uppercase;
@@ -26,6 +51,13 @@
 .notsothick{
     font-weight: bold;
     letter-spacing: 1pt;
+}
+.textbound{
+    width:250px;
+    position:relative;
+    margin-left: 20px;
+    text-align: justify;
+    
 }
 img{
     width:600px;
