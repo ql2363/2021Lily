@@ -1,7 +1,41 @@
+.main{
+    align-content: center;
+    width:600px;
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.lastpart{
+    width:600px;
+    height:80px;
+    background-color: rgb(211, 235, 243);
+    position:absolute;
+    top:4100px;
+    left:0;
+    right:0;
+    bottom:0;
+    align-content: center;
+    margin:auto;
+}
 .center{
     text-align: center;
 }
-
+.size{
+    width:300px;
+}
+.upper{
+    text-transform: uppercase;
+}
+.notsothick{
+    font-weight: bold;
+    letter-spacing: 1pt;
+}
+img{
+    width:600px;
+}
 h1 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -11,10 +45,12 @@ h1 {
     font-weight:800;
     color:rgb(119, 122, 124);
     text-align: center;
+    width:600px;
   }
 h2{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    width:600px;
     font-size: 10pt;
     line-height: 150%;
     font-weight:800;
@@ -26,31 +62,31 @@ h3{
     text-transform: uppercase;
     font-weight:800;
     color:rgb(119, 122, 124);
+    width:600px;
 }
 h5{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color:rgb(119, 122, 124);
     font-weight:800;
+    width:600px;
 }
 h6{
     font-family: 'Roboto', sans-serif;
-    
+    marker:initial;
     font-size: 10pt;
-    line-height:0%;
+    line-height:120%;
     padding: 0%;
     font-weight:800;
     color:rgb(129, 145, 156);
+    width:600px;
 }
 p{
     font-family: 'Calibri', sans-serif;
     color:rgb(112, 133, 133);
-
     font-size: 15px;
-
-
-    font-weight: 600;
-    
-    
-    line-height: 130%;
+    /* font-weight: 600; */
+    line-height: 120%;
+    width:600px;
+   
 }
