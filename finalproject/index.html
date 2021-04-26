@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+      
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='styles.css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class = 'main'>
+        <div class = 'container-title'>
+            <p class = 'title-large'>SMART COLOR COMBINER</p>
+            <p class = 'detail-words'>Make your selection of colors NATURAL<br>ql2363 | Lily Li | Final Project | Coding for Spatial Practice | 20210425</p>
+            
+        </div>
+        
+        <div class = 'picker-and-cart'>
+            <div class = 'color-picker'>
+                <p class = 'small-titles'>color-picker</p>
+                <div class = 'picks'>
+                    <canvas width="255px" height="255px" id="canvas8" ></canvas>
+                    <div class = 'fills' id='fills1'>
+                        <p class = 'detail-words' >YOUR COLOR</p>
+                    </div>
+                </div>
+                
+                <div class="slidecontainer" id='slidecontainer1'>
+                    <input type="range" min="1" max="1000" value="500" class="slider" id="myRange">
+                </div>
+            </div>
+            <div class = 'color-interpreter'>
+                <p class = 'small-titles'>Your Color Infos</p>
+                <div class ='addinfo'>
+                    <div class='your-r'>
+                        <div class='question'>
+                            <div class = 'tag-titles'>R-value</div>
+                        </div>
+                        <div class='answer'>
+                            <div class = 'tag-titles2' id='your-r'>Unknown</div>
+                        </div>
+                    </div>
+                    <div class='your-g'>
+                        <div class='question'>
+                            <div class = 'tag-titles'>G-value</div>
+                        </div>
+                        <div class='answer'>
+                            <div class = 'tag-titles2' id='your-g'>Unknown</div>
+                        </div>
+                    </div>
+                    <div class='your-b'>
+                        <div class='question'>
+                            <div class = 'tag-titles'>B-value</div>
+                        </div>
+                        <div class='answer'>
+                            <div class = 'tag-titles2' id='your-b'>Unknown</div>
+                        </div>
+                    </div>
+                    <div class='saturation'>
+                        <div class='question'>
+                            <div class = 'tag-titles'>Saturation</div>
+                        </div>
+                        <div class='answer'>
+                            <div class = 'tag-titles2' id='saturation'>Unknown</div>
+                        </div>
+                    </div>
+                    <div class='brightness'>
+                        <div class='question'>
+                            <div class = 'tag-titles'>Brightness</div>
+                        </div>
+                        <div class='answer'>
+                            <div class = 'tag-titles2' id='brightness'>Unknown</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class = 'container-cart'>
+                <div>
+                    <p class = 'small-titles'>  Cart</p>
+                </div>
+                <div class='color-selections'>
+                    <div class='colorbox tag-titles hovertag' id='color1'>
+                        Click to add color.
+                        <!-- <div class = 'tag-titles hovertag' id='color1-tag'></div> -->
+                    </div>
+                    <div class='colorbox tag-titles hovertag' id='color2'>
+                        Click to add color.
+                        <!-- <div class = 'tag-titles hovertag' id='color2-tag'>Click to add color.</div> -->
+                    </div>
+                    <div class='colorbox tag-titles hovertag' id='color3'>
+                        Click to add color.
+                        <!-- <div class = 'tag-titles hovertag' id='color3-tag'>Click to add color.</div> -->
+                    </div>
+                    <div class='colorbox tag-titles hovertag' id='color4'>
+                        Click to add color.
+                        <!-- <div class = 'tag-titles hovertag' id='color4-tag'>Click to add color.</div> -->
+                    </div>
+                    <!-- Max 4 colors -->
+                </div>
+                <div class='havebutton'>
+                    
+                    <button id='pushresult'>Push Selection to Next Steps</button>
+                   
+                </div>
+
+                <div>
+                    <canvas></canvas>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+       
+        <div class = 'container-photo'>
+            yourphotos
+            show more results button
+        </div>
+    
+        <div class = 'container-suggestion'>
+            suggested color composition
+            calculate most frequent composition by js probably
+            number of colors,input
+            cilck to generate
+            clear all
+            are you sure to reset everything?
+            yes
+    
+        </div>
+    </div>
+    
+    <script src='script.js'></script>
+</body>
+</html>
