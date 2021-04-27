@@ -281,3 +281,30 @@
     width: 200px;
     height: 200px;
 }
+
+.detail-words2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* text-transform: uppercase; */
+    color:rgb(0, 0, 0);
+    font-weight:200;
+    /* width:1000px; */
+    align-self:center;
+    text-align: center;
+    /* left: 500px; */
+    font-size: 12pt;
+    line-height: 150%;
+}
+
+.tag-titles3{
+    font-family:'Rubik', sans-serif;
+    margin:15%;
+    width: 1000px;
+    padding-top: 8px;
+    font-size: 10pt;
+    align-items: center;
+    align-self:center;
+    text-align: left;
+    
+    font-weight:200;
+    color:rgb(63, 63, 63);
+}
