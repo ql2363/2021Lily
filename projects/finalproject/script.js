@@ -298,7 +298,7 @@ yourbutton.addEventListener("click",function(){
 // transfer color rgb to color codes:
 
 
-// it sounds that this code can scrape all the imgs:
+// it sounds that this code can get the url texts but it is refused
 
 const url =  "https://labs.tineye.com/multicolr/#colors=bfa5c4;weights=100;";
 
@@ -319,3 +319,4 @@ var settings = {
 $.ajax(settings).done(function (response) {
     console.log(response);
 });
+
